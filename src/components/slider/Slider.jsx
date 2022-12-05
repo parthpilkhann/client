@@ -4,7 +4,7 @@ import "./slider.scss"
 const Slider = () => {
   return (
     <div className='slider' >
-      Slider
+      Slider h.
     </div>
   )
 }
