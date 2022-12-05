@@ -1,0 +1,65 @@
+.top {
+    display: flex;
+    padding: 5vh 5vw;
+    gap: 3vw;
+
+    @media only screen and (max-width: 900px) {
+            flex-direction: column;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        margin-inline: auto;
+        width: min(90%, 70.5rem);
+
+        h1 {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        span {
+            font-size: 0.8rem;
+            color: grey;
+        }
+
+        p {
+            font-size: 0.8rem;
+            text-align: justify;
+            color: grey;
+        }
+    }
+}
+
+.bottom {
+    display: flex;
+    padding: 5vh 5vw;
+    justify-content: space-between;
+    gap: 3vw;
+
+    .item {
+        margin-inline: auto;
+        width: min(90%, 70.5rem);
+        display: flex;
+        align-items: center;
+        gap: 2vw;
+
+        h1 {
+            font-size: 1.2rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: blue;
+        }
+
+        p {
+            font-size: 0.8rem;
+            color: grey;
+
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
