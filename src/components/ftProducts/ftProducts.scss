@@ -1,0 +1,33 @@
+.ftProducts {
+    margin: 13vh 0;
+}
+
+.ftTop {
+    display: flex;
+    padding: 5vh 5vw;
+    gap: 20vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    h1 {
+        font-size: 1.5rem;
+        // white-space: nowrap;
+        color: rgb(84, 82, 82);
+    }
+
+    p {
+        font-size: 0.8rem;
+        color: grey;
+    }
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-inline: auto;
+    width: min(80%, 70.5rem);
+
+    @media only screen and (max-width: 900px) {
+        flex-direction: column;
+    }
+}

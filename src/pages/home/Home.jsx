@@ -1,10 +1,15 @@
 import React from 'react'
-import Slider from "../../components/slider/Slider"
+import Categories from '../../components/categories/Categories'
+import FtProducts from '../../components/ftProducts/FtProducts'
+import SlideShow from "../../components/slider/SlideShow"
 
 const Home = () => {
     return (
         <div className='home'>
-            <Slider />
+            <SlideShow />
+            <FtProducts type="Featured" />
+            <Categories/>
+            <FtProducts type="Trending" />
         </div>
     )
 }

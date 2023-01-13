@@ -50,11 +50,11 @@ const Navbar = () => {
             <Link className="link" to="/products/3" >Store</Link>
           </div>
           <div className="icons">
-            <SearchIcon />
-            <PersonOutlineIcon />
-            <FavoriteBorderIcon />
+            <SearchIcon className='icon'/>
+            <PersonOutlineIcon className='icon'/>
+            <FavoriteBorderIcon className='icon'/>
             <div className="cartIcon">
-              <ShoppingCartIcon />
+              <ShoppingCartIcon className='icon'/>
               <span>9</span>
             </div>
           </div>
